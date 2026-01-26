@@ -37,51 +37,6 @@ export default function Pagination({
   const startItem = (currentPage - 1) * itemsPerPage + 1;
   const endItem = Math.min(currentPage * itemsPerPage, totalItems);
 
-//   return (
-//     <div className="flex flex-col sm:flex-row items-center justify-between gap-6 w-full px-2">
-//       <div className="text-white text-sm sm:text-base font-medium opacity-80">
-//         Showing <span className="text-white font-bold">{startItem}</span> to <span className="text-white font-bold">{endItem}</span> of <span className="text-white font-bold">{totalItems}</span>
-//       </div>
-
-//       <div className="flex items-center gap-2 sm:gap-3">
-//         <button
-//           onClick={() => onPageChange(Math.max(1, currentPage - 1))}
-//           disabled={currentPage === 1}
-//           className="flex items-center gap-2 px-3 sm:px-4 py-2 rounded-xl bg-[#1A1D29] border border-white/5 text-white/50 hover:text-white hover:border-white/20 disabled:opacity-20 disabled:cursor-not-allowed transition-all text-xs sm:text-sm font-medium"
-//         >
-//           <ChevronLeft size={16} />
-//           <span className="hidden xs:inline">Previous</span>
-//         </button>
-
-//         <div className="flex items-center gap-1 sm:gap-2">
-//           {pages.map((page) => (
-//             <button
-//               key={page}
-//               onClick={() => onPageChange(page)}
-//               className={`w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center text-xs sm:text-sm font-semibold transition-all ${
-//                 currentPage === page
-//                    ? "bg-[#5B6FE8] text-white shadow-lg shadow-[#5B6FE8]/20"
-//                    : "bg-[#1A1D29] border border-white/5 text-white hover:text-white hover:border-white/20"
-//               }`}
-//             >
-//               {page}
-//             </button>
-//           ))}
-//         </div>
-
-//         <button
-//           onClick={() => onPageChange(Math.min(totalPages, currentPage + 1))}
-//           disabled={currentPage === totalPages}
-//           className="flex items-center gap-2 px-3 sm:px-4 py-2 rounded-xl bg-[#1A1D29] border border-white/5 text-white/50 hover:text-white hover:border-white/20 disabled:opacity-20 disabled:cursor-not-allowed transition-all text-xs sm:text-sm font-medium"
-//         >
-//           <span className="hidden xs:inline">Next</span>
-//           <ChevronRight size={16} />
-//         </button>
-//       </div>
-//     </div>
-//   );
-// }
-
 return (
   <div className="flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 w-full px-2">
     {/* Showing text */}

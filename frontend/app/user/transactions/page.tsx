@@ -134,50 +134,6 @@ export default function TransactionsPage() {
   const totalPages = Math.ceil(TOTAL_ITEMS / ITEMS_PER_PAGE);
   const transactions = showEmpty ? [] : MOCK_TRANSACTIONS;
 
-//   return (
-//     <>
-//       <div 
-//         className="min-h-screen w-full fixed inset-0 -z-10"
-//         style={{
-//           backgroundImage: 'url("/Bg%201.svg")',
-//           backgroundSize: 'cover',
-//           backgroundPosition: 'center',
-//           backgroundRepeat: 'no-repeat',
-//           backgroundAttachment: 'fixed'
-//         }}
-//       />
-//       <div className="min-h-screen pt-24 pb-12 px-4 sm:px-6 lg:px-8 max-w-[1700px] mx-auto relative z-10 w-full overflow-x-hidden">
-//         <div className="flex flex-col gap-6 sm:gap-8 w-full max-w-full">
-//           {MOCK_TRANSACTIONS.length > 0 ? (
-//             <>
-//               <div 
-//                 className="bg-[#0A0B0F]/40 backdrop-blur-xl rounded-2xl sm:rounded-3xl border border-white/10 shadow-2xl flex flex-col overflow-hidden p-2 sm:p-4 min-h-[500px] max-h-[calc(100vh-320px)] sm:max-h-[calc(100vh-280px)] w-full"
-//               >
-//                 <div className="flex-1 w-full overflow-hidden">
-//                   <TransactionList transactions={MOCK_TRANSACTIONS} />
-//                 </div>
-//               </div>
-//               <div className="mt-4 sm:mt-6 w-full max-w-full">
-//                 <Pagination
-//                   currentPage={currentPage}
-//                   totalPages={totalPages}
-//                   totalItems={50}
-//                   itemsPerPage={10}
-//                   onPageChange={setCurrentPage}
-//                 />
-//               </div>
-//             </>
-//           ) : (
-//             <div className="w-full">
-//               <EmptyState />
-//             </div>
-//           )}
-//         </div>
-//       </div>
-//     </>
-//   );
-// }
-
 return (
   <>
     <div
