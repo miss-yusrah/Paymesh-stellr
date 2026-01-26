@@ -99,30 +99,6 @@ const MOCK_TRANSACTIONS: TransactionData[] = [
       { name: "USDT", ticker: "USDT", amount: "$35", icon: "/coin/Image.png" },
     ],
   },
-  {
-    id: "7",
-    groupName: "TestGroup",
-    groupAddress: "0x123...abc",
-    totalAmount: "$50",
-    members: 3,
-    time: "2:00:00PM",
-    date: "Jan 1, 2026",
-    tokens: [
-      { name: "Bitcoin", ticker: "wBTC", amount: "0.001", icon: "/coin/Image (3).png" },
-    ],
-  },
-  {
-    id: "8",
-    groupName: "AnotherGroup",
-    groupAddress: "0x456...def",
-    totalAmount: "$75",
-    members: 4,
-    time: "3:00:00PM",
-    date: "Jan 2, 2026",
-    tokens: [
-      { name: "Ethereum", ticker: "ETH", amount: "0.05", icon: "/coin/Image (4).png" },
-    ],
-  },
 ];
 
 const TOTAL_ITEMS = 50;
