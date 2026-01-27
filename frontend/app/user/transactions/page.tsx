@@ -17,7 +17,7 @@ const MOCK_TRANSACTIONS: TransactionData[] = [
     tokens: [
       { name: "Bitcoin", ticker: "wBTC", amount: "0.00016", icon: "/coin/Image (3).png", value: "$60" },
       { name: "Ethereum", ticker: "ETH", amount: "0.01", icon: "/coin/Image (4).png", value: "$30" },
-      { name: "Starknet", ticker: "STRK", amount: "500", icon: "/coin/Image (2).png", value: "$10" },
+      { name: "Stellar", ticker: "XLM", amount: "500", icon: "/Stellar.png", value: "$10" },
       { name: "USDC", ticker: "USDC", amount: "65", icon: "/coin/Image (1).png", value: "$10" },
       { name: "USDT", ticker: "USDT", amount: "35", icon: "/coin/Image.png", value: "$10" },
     ],
@@ -33,7 +33,7 @@ const MOCK_TRANSACTIONS: TransactionData[] = [
     tokens: [
       { name: "Bitcoin", ticker: "wBTC", amount: "0.00016", icon: "/coin/Image (3).png" },
       { name: "Ethereum", ticker: "ETH", amount: "0.01", icon: "/coin/Image (4).png" },
-      { name: "Starknet", ticker: "STRK", amount: "500", icon: "/coin/Image (2).png" },
+      { name: "Stellar", ticker: "XLM", amount: "500", icon: "/Stellar.png" },
       { name: "USDC", ticker: "USDC", amount: "$65", icon: "/coin/Image (1).png" },
       { name: "USDT", ticker: "USDT", amount: "$35", icon: "/coin/Image.png" },
     ],
@@ -64,7 +64,7 @@ const MOCK_TRANSACTIONS: TransactionData[] = [
     tokens: [
       { name: "Bitcoin", ticker: "wBTC", amount: "0.00016", icon: "/coin/Image (3).png" },
       { name: "Ethereum", ticker: "ETH", amount: "0.01", icon: "/coin/Image (4).png" },
-      { name: "Starknet", ticker: "STRK", amount: "500", icon: "/coin/Image (2).png" },
+      { name: "Stellar", ticker: "XLM", amount: "500", icon: "/Stellar.png" },
       { name: "USDC", ticker: "USDC", amount: "$65", icon: "/coin/Image (1).png" },
       { name: "USDT", ticker: "USDT", amount: "$35", icon: "/coin/Image.png" },
     ],
@@ -78,7 +78,7 @@ const MOCK_TRANSACTIONS: TransactionData[] = [
     time: "5:3012PM",
     date: "Dec Ist, 2025",
     tokens: [
-      { name: "Starknet", ticker: "STRK", amount: "500", icon: "/coin/Image (2).png" },
+      { name: "Stellar", ticker: "XLM", amount: "500", icon: "/Stellar.png" },
       { name: "USDC", ticker: "USDC", amount: "$65", icon: "/coin/Image (1).png" },
       { name: "USDT", ticker: "USDT", amount: "$35", icon: "/coin/Image.png" },
     ],
@@ -94,7 +94,7 @@ const MOCK_TRANSACTIONS: TransactionData[] = [
     tokens: [
       { name: "Bitcoin", ticker: "wBTC", amount: "0.00016", icon: "/coin/Image (3).png" },
       { name: "Ethereum", ticker: "ETH", amount: "0.01", icon: "/coin/Image (4).png" },
-      { name: "Starknet", ticker: "STRK", amount: "500", icon: "/coin/Image (2).png" },
+      { name: "Stellar", ticker: "XLM", amount: "500", icon: "/Stellar.png" },
       { name: "USDC", ticker: "USDC", amount: "$65", icon: "/coin/Image (1).png" },
       { name: "USDT", ticker: "USDT", amount: "$35", icon: "/coin/Image.png" },
     ],
