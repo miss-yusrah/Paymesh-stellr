@@ -122,7 +122,7 @@ return (
         backgroundAttachment: 'fixed'
       }}
     />
-    <div className="min-h-screen pt-16 sm:pt-20 lg:pt-24 pb-8 sm:pb-12 px-3 sm:px-4 lg:px-8 max-w-[1700px] mx-auto relative z-10 w-full overflow-x-hidden">
+    <div className="min-h-screen pt-16 sm:pt-20 lg:pt-24 pb-8 sm:pb-12 px-3 sm:px-4 lg:px-8 max-w-425 mx-auto relative z-10 w-full overflow-x-hidden">
       <div className="flex flex-col gap-4 sm:gap-6 lg:gap-8 w-full max-w-full">
         {transactions.length > 0 ? (
           <>
